@@ -1,0 +1,10 @@
+Sora Bar 0.1.0 — independent fork, modified 2026-10-31.
+Original Ice: Copyright Jordan Baird and contributors.
+https://github.com/jordanbaird/Ice
+macOS 27 compatibility: RabenkoYevhenii/Ice, PR jordanbaird/Ice#995.
+Source revision: fa3f225f5967935459bcb68c637f863e62b2cbcd
+Assessment API attribution to Thaw and Barometer remains in the source.
+Licensed under GPL-3.0; see LICENSE.txt and Acknowledgements.rtf.
+Changed: app identity, UI names, original artwork, partial Japanese translation,
+offline update behavior, build/install scripts and validation documentation.
+Compatibility with macOS 27.2 has NOT been verified on hardware.
