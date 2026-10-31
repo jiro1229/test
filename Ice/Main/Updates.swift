@@ -1,3 +1,8 @@
+//
+//  Updates.swift
+//  Ice
+//
+
 // Derived from Ice. Modified for Sora Bar on 2026-10-31.
 // Updates stay offline until this fork has its own signed feed.
 import SwiftUI

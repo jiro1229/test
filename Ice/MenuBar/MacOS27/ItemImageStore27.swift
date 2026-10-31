@@ -383,6 +383,8 @@ final class ItemImageStore27 {
             }
         }
         keyed.withUnsafeMutableBytes { buffer in
+            // Dimensions were validated above, so the pixel buffer is nonempty.
+            // swiftlint:disable:next force_unwrapping
             bytes.update(from: buffer.bindMemory(to: UInt8.self).baseAddress!, count: count)
         }
         guard
